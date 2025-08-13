@@ -14,9 +14,9 @@ export default function Home() {
                     <Button label="Secondary" variant="secondary" />
                     <Button label="Danger" variant="danger" />
                     <Button label="Success" variant="success" />
+                    <Button label="Success" variant="success" shape='squared' />
                     <Button label="Edit" variant="dark" icon={<Pen className='w-5 h-5' />} iconPosition='left' />
                     <Button label="Delete" variant="danger" icon={<Trash className='w-5 h-5' />} iconPosition='right' />
-
                 </div>
                 <div className='flex flex-col
                 gap-4'>
