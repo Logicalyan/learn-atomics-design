@@ -24,7 +24,7 @@ const NavItem: React.FC<NavItemProps> = ({ label, icon, to, collapsed, onClick }
         active
           ? 'bg-red-600 text-white'
           : 'text-red-400 hover:bg-red-400 hover:text-white',
-        collapsed && 'justify-center gap-0'
+        collapsed && 'justify-center'
       )}
     >
       <Icon size={20}>{icon}</Icon>

@@ -4,6 +4,7 @@ import { LoginPage } from './pages/LoginPage'
 import DashboardPage from './pages/DashboardPage'
 import ButtonPage from './pages/ButtonPage'
 import UsersPage from './pages/UsersPage'
+import { CRMPage } from './pages/CRMPage'
 
 export default function App() {
   return (
@@ -14,6 +15,7 @@ export default function App() {
         <Route path="/dashboard" element={<DashboardPage />} />
         <Route path="/buttons" element={<ButtonPage />} />
         <Route path="/users" element={<UsersPage />} />
+        <Route path="/crm" element={<CRMPage />} />
       </Routes>
     </BrowserRouter>
   )
